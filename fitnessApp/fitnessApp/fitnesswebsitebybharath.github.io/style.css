@@ -1,0 +1,177 @@
+body,h1,h2,h3{
+    font-family: 'Lato', sans-serif;
+  }
+
+h1{
+    font-size: 5rem;
+    padding-bottom: 4%;
+}
+
+p{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.services-heading{
+    padding-bottom: 10%;
+}
+
+.download-button{
+    color: white;
+}
+
+.heading2{
+    color: white;
+    padding-left: 0.1in;
+}
+
+img{
+    width: 80%;
+}
+
+  a{
+      font-size: 1.4rem;
+  }
+
+  #title{
+    background-color: #ff4c68;
+  }
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .navbar-brand{
+    padding-left: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .nav-item{
+    padding: 0px 18px;
+  }
+  
+  .nav-link{
+    font-size: 1.7rem;
+  }
+  
+.container-fluid{
+    padding: 10% 15% 2%;
+    padding-bottom: 12%;
+  }
+  
+.btn{
+    margin: 40px 15px;
+    font-size: 1.8rem;
+    padding: 1.7%;
+    font-family: 'Lato', sans-serif;
+}
+
+.heading{
+    color: white;
+    font-size: 5rem;
+    line-height: 5rem;
+    padding: 30px 0px;
+    font-size: 13rem;
+    line-height: 1;
+    }
+
+.text{
+    
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.about{
+    background-color: rgba(0, 0, 0, 0.808);
+    padding: 10% 2%;
+    color: white;
+}
+
+.about-descrpition{
+    text-align: left;
+}
+
+.about-descrpition-1{
+    padding-top: 5%;
+    color: rgba(255, 255, 255, 0.562);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#services{
+    text-align: center;
+    padding: 10% 7%;
+    background-color: #ff4c68;
+}
+
+.services-row{
+    padding-bottom: 10%;
+}
+
+.service-num{
+    font-size: 10rem;
+    color: #931a25;
+}
+
+.service-text{
+    font-size: 3rem;
+    position: relative;
+    
+}
+
+.book-online-text{
+    padding-top: 10%;
+}
+
+#book-online{
+    padding-left: 30%;
+}
+
+#pricing{
+
+    background-color: #ff4c68;
+
+}
+
+.pricing-heading{
+    text-align: center;
+    color: white;
+    padding-top: 10%;
+    font-size: 6rem;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+  }
+
+.pricing-coloumn{
+    padding: 20px;
+  }
+  
+.card-header{
+
+    font-size: 4rem;
+}
+
+.card-body{
+    line-height: 0.8cm;
+    padding-right: 9%;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #ff4c68;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #e04040;
+    color: white;
+  }

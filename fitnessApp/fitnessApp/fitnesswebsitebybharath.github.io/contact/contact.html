@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>contact details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <script>
+     /* function book()
+      {
+        alert("Thank you !!! , Your Feedback is Sent.")
+      }
+
+      function validateForm()
+      {
+        if (inputtx.value.length == 0)
+        { 
+          alert("You have empty fields.");  	
+          return false; 
+        }  	
+
+        else
+        {
+          alert("Successfully submitted.")
+        }
+        return true; 
+    }*/
+
+    var applicationNumber = Math.floor(Math.random() * 10000000 ) + 1;
+    
+
+    function submit()
+    {
+      alert("Your application is recorded.")
+      alert("Your applicaion number is " + applicationNumber)
+    }
+    </script>
+     
+  </head>
+
+  <style type="text/css">
+
+    body{
+      font-family: 'Lato', sans-serif;
+    }
+
+    input{
+      border: none;
+      border-bottom: 1px solid #fff;
+      background: transparent;
+      outline: none;
+      height: 40px;
+      color: #fff;
+      font-size: 16px;
+    }
+
+    .login-box{
+    
+    background:  #ff4c68;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    margin: 60px;
+    box-sizing: border-box;
+    padding: 70px 30px 50px 30px;
+}
+
+.text{
+    
+    font-size: 5rem;
+    text-align: center;
+}
+
+.button
+{
+  margin-left: 60px;
+  margin-bottom: 10%;
+}
+
+  </style>
+ 
+  <body>
+
+    <div style="text-align: center;">
+      <h1 class = "text">Join Our Family </h1>
+      <h4>12345678-Call and Whatsapp</h4>
+      <h4>fitnessstudio@gmail.com</h4>
+    </div>
+    
+
+    <div class="login-box" style="margin-bottom: 2%;">
+      <form name="form" action="" method="post" enctype="text/plain" onsubmit="return(validateForm())">
+        <label>Your Name</label>
+        <input type="text" name="Name" value="" required>
+        <br>
+        <label>Your Email id</label>
+        <input type="email" name="Email" value="" required>
+  
+        <br>
+        <label>Date of Joining</label>
+        <input type="date" min="07-12-2020" name="Date" value="" required>
+        
+        <br>
+        <br>
+        <label>Which plan would you like to prefer?</label>
+        <br>
+        <label for="">Chihuahua</label>
+        <input type="checkbox" name="Chihuahua" value="Chihuahua">
+        <br>
+        <label for=""> Labrador</label>
+        <input type="checkbox" name=" Labrador" id="">
+        <br>
+        <label for="">Mastiff</label>
+        <input type="checkbox" name="Mastiff" id=""s>
+        <br><label>Your Message</label>
+        <input type="yourmessage" rows="40" cols="50">
+        <br>
+        <br>
+        <input type="submit" class="btn btn-dark btn-lg book-online-button" onclick="validateForm()" value="Validate">
+      </form>
+    </div>
+  <button class="btn btn-danger btn-lg book-online-button button" onclick="submit()">Book Now</button>
+
+  <div id="root"></div>
+  <script type="text/JSX" src="react.js"></script>
+  </body>
+</html>

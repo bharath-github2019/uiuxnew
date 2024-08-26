@@ -1,0 +1,15 @@
+<link href="/ejsstyle.css" rel="stylesheet" type="text/css">
+<header>
+     <h1>Your Purchase history</h1>
+</header>
+<ul>
+     <% devices.forEach(function(device){ %>
+       <li>
+          <ul>
+               <% Object.keys(device).forEach(function(key){ %>
+                    <li><strong><%= key%></strong>:<%=device[key] %></li>
+               <% }); %>
+          </ul>
+       </li>  
+        <% }); %>
+</ul>
